@@ -1,0 +1,30 @@
+C:\Users\Taner\Desktop\Programlar\Eğitim Projelerim\MvcProjeKampi\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+C:\Users\Taner\Desktop\Programlar\Eğitim Projelerim\MvcProjeKampi\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\Taner\Desktop\Programlar\Eğitim Projelerim\MvcProjeKampi\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\Taner\Desktop\Programlar\Eğitim Projelerim\MvcProjeKampi\DataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\Taner\Desktop\Programlar\Eğitim Projelerim\MvcProjeKampi\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Taner\Desktop\Programlar\Eğitim Projelerim\MvcProjeKampi\DataAccessLayer\bin\Debug\EntityLayer.dll
+C:\Users\Taner\Desktop\Programlar\Eğitim Projelerim\MvcProjeKampi\DataAccessLayer\bin\Debug\EntityLayer.pdb
+C:\Users\Taner\Desktop\Programlar\Eğitim Projelerim\MvcProjeKampi\DataAccessLayer\bin\Debug\EntityLayer.dll.config
+C:\Users\Taner\Desktop\Programlar\Eğitim Projelerim\MvcProjeKampi\DataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\Taner\Desktop\Programlar\Eğitim Projelerim\MvcProjeKampi\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Taner\Desktop\Programlar\Eğitim Projelerim\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.csprojAssemblyReference.cache
+C:\Users\Taner\Desktop\Programlar\Eğitim Projelerim\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Taner\Desktop\Programlar\Eğitim Projelerim\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
+C:\Users\Taner\Desktop\Programlar\Eğitim Projelerim\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\Taner\Desktop\Programlar\Eğitim Projelerim\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\DataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\DataAccessLayer\bin\Debug\EntityLayer.dll
+C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\DataAccessLayer\bin\Debug\EntityLayer.pdb
+C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\DataAccessLayer\bin\Debug\EntityLayer.dll.config
+C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\DataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.csprojAssemblyReference.cache
+C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
+C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.pdb

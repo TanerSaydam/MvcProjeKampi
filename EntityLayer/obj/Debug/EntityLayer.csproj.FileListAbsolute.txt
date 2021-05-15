@@ -1,0 +1,24 @@
+C:\Users\Taner\Desktop\Programlar\Eğitim Projelerim\MvcProjeKampi\EntityLayer\bin\Debug\EntityLayer.dll.config
+C:\Users\Taner\Desktop\Programlar\Eğitim Projelerim\MvcProjeKampi\EntityLayer\bin\Debug\EntityLayer.dll
+C:\Users\Taner\Desktop\Programlar\Eğitim Projelerim\MvcProjeKampi\EntityLayer\bin\Debug\EntityLayer.pdb
+C:\Users\Taner\Desktop\Programlar\Eğitim Projelerim\MvcProjeKampi\EntityLayer\bin\Debug\EntityFramework.dll
+C:\Users\Taner\Desktop\Programlar\Eğitim Projelerim\MvcProjeKampi\EntityLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Taner\Desktop\Programlar\Eğitim Projelerim\MvcProjeKampi\EntityLayer\bin\Debug\EntityFramework.xml
+C:\Users\Taner\Desktop\Programlar\Eğitim Projelerim\MvcProjeKampi\EntityLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Taner\Desktop\Programlar\Eğitim Projelerim\MvcProjeKampi\EntityLayer\obj\Debug\EntityLayer.csprojAssemblyReference.cache
+C:\Users\Taner\Desktop\Programlar\Eğitim Projelerim\MvcProjeKampi\EntityLayer\obj\Debug\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\Taner\Desktop\Programlar\Eğitim Projelerim\MvcProjeKampi\EntityLayer\obj\Debug\EntityLayer.csproj.CopyComplete
+C:\Users\Taner\Desktop\Programlar\Eğitim Projelerim\MvcProjeKampi\EntityLayer\obj\Debug\EntityLayer.dll
+C:\Users\Taner\Desktop\Programlar\Eğitim Projelerim\MvcProjeKampi\EntityLayer\obj\Debug\EntityLayer.pdb
+C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\EntityLayer\bin\Debug\EntityLayer.dll.config
+C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\EntityLayer\bin\Debug\EntityLayer.dll
+C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\EntityLayer\bin\Debug\EntityLayer.pdb
+C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\EntityLayer\bin\Debug\EntityFramework.dll
+C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\EntityLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\EntityLayer\bin\Debug\EntityFramework.xml
+C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\EntityLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\EntityLayer\obj\Debug\EntityLayer.csprojAssemblyReference.cache
+C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\EntityLayer\obj\Debug\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\EntityLayer\obj\Debug\EntityLayer.csproj.CopyComplete
+C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\EntityLayer\obj\Debug\EntityLayer.dll
+C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\EntityLayer\obj\Debug\EntityLayer.pdb

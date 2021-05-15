@@ -1,0 +1,38 @@
+C:\Users\Taner\Desktop\Programlar\Eğitim Projelerim\MvcProjeKampi\BusinessLayer\bin\Debug\BusinessLayer.dll.config
+C:\Users\Taner\Desktop\Programlar\Eğitim Projelerim\MvcProjeKampi\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Users\Taner\Desktop\Programlar\Eğitim Projelerim\MvcProjeKampi\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\Taner\Desktop\Programlar\Eğitim Projelerim\MvcProjeKampi\BusinessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\Taner\Desktop\Programlar\Eğitim Projelerim\MvcProjeKampi\BusinessLayer\bin\Debug\EntityFramework.dll
+C:\Users\Taner\Desktop\Programlar\Eğitim Projelerim\MvcProjeKampi\BusinessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Taner\Desktop\Programlar\Eğitim Projelerim\MvcProjeKampi\BusinessLayer\bin\Debug\EntityLayer.dll
+C:\Users\Taner\Desktop\Programlar\Eğitim Projelerim\MvcProjeKampi\BusinessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\Taner\Desktop\Programlar\Eğitim Projelerim\MvcProjeKampi\BusinessLayer\bin\Debug\DataAccessLayer.dll.config
+C:\Users\Taner\Desktop\Programlar\Eğitim Projelerim\MvcProjeKampi\BusinessLayer\bin\Debug\EntityLayer.pdb
+C:\Users\Taner\Desktop\Programlar\Eğitim Projelerim\MvcProjeKampi\BusinessLayer\bin\Debug\EntityLayer.dll.config
+C:\Users\Taner\Desktop\Programlar\Eğitim Projelerim\MvcProjeKampi\BusinessLayer\bin\Debug\EntityFramework.xml
+C:\Users\Taner\Desktop\Programlar\Eğitim Projelerim\MvcProjeKampi\BusinessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Taner\Desktop\Programlar\Eğitim Projelerim\MvcProjeKampi\BusinessLayer\obj\Debug\BusinessLayer.csprojAssemblyReference.cache
+C:\Users\Taner\Desktop\Programlar\Eğitim Projelerim\MvcProjeKampi\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Taner\Desktop\Programlar\Eğitim Projelerim\MvcProjeKampi\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+C:\Users\Taner\Desktop\Programlar\Eğitim Projelerim\MvcProjeKampi\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\Taner\Desktop\Programlar\Eğitim Projelerim\MvcProjeKampi\BusinessLayer\obj\Debug\BusinessLayer.pdb
+C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\BusinessLayer\bin\Debug\BusinessLayer.dll.config
+C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\BusinessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\BusinessLayer\bin\Debug\EntityFramework.dll
+C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\BusinessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\BusinessLayer\bin\Debug\EntityLayer.dll
+C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\BusinessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\BusinessLayer\bin\Debug\DataAccessLayer.dll.config
+C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\BusinessLayer\bin\Debug\EntityLayer.pdb
+C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\BusinessLayer\bin\Debug\EntityLayer.dll.config
+C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\BusinessLayer\bin\Debug\EntityFramework.xml
+C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\BusinessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\BusinessLayer\obj\Debug\BusinessLayer.csprojAssemblyReference.cache
+C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\BusinessLayer\obj\Debug\BusinessLayer.pdb
+C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\BusinessLayer\bin\Debug\FluentValidation.dll
+C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\BusinessLayer\bin\Debug\FluentValidation.xml
