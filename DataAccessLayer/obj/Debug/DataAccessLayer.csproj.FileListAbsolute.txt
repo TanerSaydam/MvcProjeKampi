@@ -28,3 +28,5 @@ C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\Data
 C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
 C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.dll
 C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_writer_edit.resources
+C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.GenerateResource.cache
