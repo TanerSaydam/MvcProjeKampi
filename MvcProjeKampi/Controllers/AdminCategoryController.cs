@@ -11,25 +11,14 @@ using System.Web.Mvc;
 
 namespace MvcProjeKampi.Controllers
 {
-    public class CategoryController : Controller
+    public class AdminCategoryController : Controller
     {
-        // GET: Category
         CategoryManager cm = new CategoryManager(new EfCategoryDal());
         public ActionResult Index()
         {
-            return View();
+            var categoryvalue = cm.GetList();
+            return View(categoryvalue);
         }
-
-        public ActionResult GetCatgoryList()
-        {
-            var categoryvalues = cm.GetList();
-            return View(categoryvalues);
-        }
-
-        //public PartialViewResult ModalCategoryAdd()
-        //{
-        //    return PartialView();
-        //}
 
         [HttpGet]
         public ActionResult AddCategory()
@@ -39,13 +28,13 @@ namespace MvcProjeKampi.Controllers
 
         [HttpPost]
         public ActionResult AddCategory(Category p)
-        {            
+        {
             CategoryValidator categoryValidator = new CategoryValidator();
             ValidationResult results = categoryValidator.Validate(p);
             if (results.IsValid)
             {
                 cm.CategoryAdd(p);
-                return RedirectToAction("GetCatgoryList");
+                return RedirectToAction("Index");
             }
             else
             {
@@ -55,6 +44,27 @@ namespace MvcProjeKampi.Controllers
                 }
             }
             return View();
+        }
+
+        public ActionResult DeleteCategory(int id)
+        {
+            var categoryvalue = cm.GetByID(id);
+            cm.CategoryDelete(categoryvalue);
+            return RedirectToAction("Index");
+        }
+
+        [HttpGet]
+        public ActionResult EditCategory(int id)
+        {
+            var categoryvalue = cm.GetByID(id);
+            return View(categoryvalue);
+        }
+
+        [HttpPost]
+        public ActionResult EditCategory(Category p)
+        {
+            cm.CategoryUpdate(p);
+            return RedirectToAction("Index");
         }
     }
 }
