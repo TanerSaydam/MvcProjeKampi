@@ -21,7 +21,8 @@ namespace BusinessLayer.ValidationRules
             RuleFor(x => x.WriterAbout).Must(IsAboutValid).WithMessage("Hakkında kısmında en az bir defa a harfi kullanılmalıdır");
             RuleFor(x => x.WriterMail).NotEmpty().WithMessage("Mail kısmı boş geçilemez");
             RuleFor(x => x.WriterPassword).NotEmpty().WithMessage("Şifre boş geçilemez");
-            RuleFor(x => x.WriterPassword).Must(IsPasswordValid).WithMessage("Parola en az 6 karakter olmalıdır.En az bir harf ve bir sayı içermelidir");
+            //RuleFor(x => x.WriterPassword).Must(IsPasswordValid).WithMessage("Parola en az 6 karakter olmalıdır.En az bir harf ve bir sayı içermelidir");
+            RuleFor(x => x.WriterTitle).NotEmpty().WithMessage("Ünvan kısmı boş geçilemez");
         }
 
         private bool IsAboutValid(string arg)

@@ -34,6 +34,10 @@
     @Html.TextBoxFor(x => x.WriterImage, new { @class = "form-control" })
     @Html.ValidationMessageFor(x => x.WriterImage, "", new { @class = "text-danger" })
     <br /><br />
+    @Html.Label("Ünvan")
+    @Html.TextBoxFor(x => x.WriterTitle, new { @class = "form-control" })
+    @Html.ValidationMessageFor(x => x.WriterTitle, "", new { @class = "text-danger" })
+    <br /><br />
     <button class="btn btn-info">Kaydet</button>
 </div>
 }

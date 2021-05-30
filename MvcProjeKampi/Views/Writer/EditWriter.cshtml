@@ -8,33 +8,37 @@
 <br />
 @using (Html.BeginForm("EditWriter", "Writer", FormMethod.Post))
 {
-    <div class="form-group">
-        @Html.Label("Yazar Adı")
-        @Html.TextBoxFor(x => x.WriterName, new { @class = "form-control" })
-        @Html.ValidationMessageFor(x => x.WriterName, "", new { @class = "text-danger" })
-        <br /><br />
-        @Html.Label("Yazar Soyadı")
-        @Html.TextBoxFor(x => x.WriterSurName, new { @class = "form-control" })
-        @Html.ValidationMessageFor(x => x.WriterSurName, "", new { @class = "text-danger" })
-        <br /><br />
-        @Html.Label("Hakkında")
-        @Html.TextBoxFor(x => x.WriterAbout, new { @class = "form-control" })
-        @Html.ValidationMessageFor(x => x.WriterAbout, "", new { @class = "text-danger" })
-        <br /><br />
-        @Html.Label("Mail")
-        @Html.TextBoxFor(x => x.WriterMail, new { @class = "form-control" })
-        @Html.ValidationMessageFor(x => x.WriterMail, "", new { @class = "text-danger" })
-        <br /><br />
-        @Html.Label("Şifre")
-        @Html.TextBoxFor(x => x.WriterPassword, new { @class = "form-control" })
-        @Html.ValidationMessageFor(x => x.WriterPassword, "", new { @class = "text-danger" })
-        <br /><br />
-        @Html.Label("Resim")
-        @Html.TextBoxFor(x => x.WriterImage, new { @class = "form-control" })
-        @Html.ValidationMessageFor(x => x.WriterImage, "", new { @class = "text-danger" })
-        @Html.HiddenFor(x => x.WriterID)
-        <br /><br />
-        <button class="btn btn-info">Kaydet</button>
-    </div>
+<div class="form-group">
+    @Html.Label("Yazar Adı")
+    @Html.TextBoxFor(x => x.WriterName, new { @class = "form-control" })
+    @Html.ValidationMessageFor(x => x.WriterName, "", new { @class = "text-danger" })
+    <br /><br />
+    @Html.Label("Yazar Soyadı")
+    @Html.TextBoxFor(x => x.WriterSurName, new { @class = "form-control" })
+    @Html.ValidationMessageFor(x => x.WriterSurName, "", new { @class = "text-danger" })
+    <br /><br />
+    @Html.Label("Hakkında")
+    @Html.TextBoxFor(x => x.WriterAbout, new { @class = "form-control" })
+    @Html.ValidationMessageFor(x => x.WriterAbout, "", new { @class = "text-danger" })
+    <br /><br />
+    @Html.Label("Mail")
+    @Html.TextBoxFor(x => x.WriterMail, new { @class = "form-control" })
+    @Html.ValidationMessageFor(x => x.WriterMail, "", new { @class = "text-danger" })
+    <br /><br />
+    @Html.Label("Şifre")
+    @Html.TextBoxFor(x => x.WriterPassword, new { @class = "form-control" })
+    @Html.ValidationMessageFor(x => x.WriterPassword, "", new { @class = "text-danger" })
+    <br /><br />
+    @Html.Label("Resim")
+    @Html.TextBoxFor(x => x.WriterImage, new { @class = "form-control" })
+    @Html.ValidationMessageFor(x => x.WriterImage, "", new { @class = "text-danger" })    
+    <br /><br />
+    @Html.Label("Ünvan")
+    @Html.TextBoxFor(x => x.WriterTitle, new { @class = "form-control" })
+    @Html.ValidationMessageFor(x => x.WriterTitle, "", new { @class = "text-danger" })
+    @Html.HiddenFor(x => x.WriterID)
+    <br /><br />
+    <button class="btn btn-info">Kaydet</button>
+</div>
 }
 
