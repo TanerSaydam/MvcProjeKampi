@@ -48,27 +48,10 @@
                                     <h5>@Model.Subject</h5>
                                     <h6>
                                         Mail: @Model.UserMail
-                                        <span class="mailbox-read-time float-right">15 Feb. 2015 11:03 PM</span>
+                                        <span class="mailbox-read-time float-right">@Model.ContactDate.ToString("dd.MM.yyyy")</span>
                                     </h6>
                                 </div>
-                                <!-- /.mailbox-read-info -->
-                                <div class="mailbox-controls with-border text-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-default btn-sm" data-toggle="tooltip" data-container="body" title="Delete">
-                                            <i class="far fa-trash-alt"></i>
-                                        </button>
-                                        <button type="button" class="btn btn-default btn-sm" data-toggle="tooltip" data-container="body" title="Reply">
-                                            <i class="fas fa-reply"></i>
-                                        </button>
-                                        <button type="button" class="btn btn-default btn-sm" data-toggle="tooltip" data-container="body" title="Forward">
-                                            <i class="fas fa-share"></i>
-                                        </button>
-                                    </div>
-                                    <!-- /.btn-group -->
-                                    <button type="button" class="btn btn-default btn-sm" data-toggle="tooltip" title="Print">
-                                        <i class="fas fa-print"></i>
-                                    </button>
-                                </div>
+                                <!-- /.mailbox-read-info -->                                
                                 <!-- /.mailbox-controls -->
                                 <div class="mailbox-read-message">
                                     <p>@Model.Message</p>

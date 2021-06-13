@@ -184,3 +184,4 @@ C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\MvcP
 C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\MvcProjeKampi\obj\Debug\MvcProjeKampi.pdb
 C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\MvcProjeKampi\bin\FluentValidation.dll
 C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\MvcProjeKampi\bin\FluentValidation.xml
+C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\MvcProjeKampi\bin\SimpleCrypto.dll

@@ -8,6 +8,7 @@ using System.Web.Mvc;
 
 namespace MvcProjeKampi.Controllers
 {
+    [Authorize]
     public class IstatistikController : Controller
     {
         CategoryManager cm = new CategoryManager(new EfCategoryDal());

@@ -8,6 +8,7 @@ using System.Web.Mvc;
 
 namespace MvcProjeKampi.Controllers
 {
+    [Authorize]
     public class ContentController : Controller
     {
         // GET: Content

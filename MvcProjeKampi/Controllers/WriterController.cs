@@ -11,6 +11,7 @@ using System.Web.Mvc;
 
 namespace MvcProjeKampi.Controllers
 {
+    [Authorize]
     public class WriterController : Controller
     {
         // GET: Writer

@@ -11,6 +11,7 @@ using System.Web.Mvc;
 
 namespace MvcProjeKampi.Controllers
 {
+    [Authorize]
     public class HeadingController : Controller
     {
         // GET: Heading

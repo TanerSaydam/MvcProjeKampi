@@ -20,8 +20,18 @@
         <tr>
             <td>@x.AboutID</td>
             <td>@x.AboutDetails1</td>
-            <td><a href="#" class="btn btn-primary">Aktif Yap</a></td>
-            <td><a href="#" class="btn btn-primary">Pasif Yap</a></td>
+            @if (x.AboutStatus == true)
+            {
+                <td class="text-info">Aktif</td>
+                <td><a href="/About/DurumDegistir/@x.AboutID" class="btn btn-primary">Pasif Yap</a></td>
+            }
+            else
+            {
+                <td><a href="/About/DurumDegistir/@x.AboutID" class="btn btn-primary">Aktif Yap</a></td>
+                <td class="text-danger">Pasif</td>
+            }
+
+
         </tr>
     }
 </table>
