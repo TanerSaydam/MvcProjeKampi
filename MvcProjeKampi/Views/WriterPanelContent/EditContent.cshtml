@@ -1,0 +1,23 @@
+﻿@model EntityLayer.Concrete.Content
+@{
+    ViewBag.Title = "EditContent";
+    Layout = "~/Views/Shared/_WriterLayout.cshtml";
+}
+
+<h3 class="text-center">İçerik Güncelleme</h3>
+<hr />
+
+@using (Html.BeginForm("EditContent", "WriterPanelContent", FormMethod.Post))
+{
+    @Html.HiddenFor(x=> x.ContentID)
+    @Html.HiddenFor(x=> x.ContentDate)
+    @Html.HiddenFor(x=> x.ContentStatus)
+    @Html.HiddenFor(x=> x.HeadingID)
+    @Html.HiddenFor(x=> x.WriterID)
+    <form class="form-group">
+        Başlık
+        @Html.TextBoxFor(x => x.ContentValue, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.ContentValue, "", new { @class = "text-danger" })        
+        <button class="btn btn-info">Kaydet</button>
+    </form>
+}

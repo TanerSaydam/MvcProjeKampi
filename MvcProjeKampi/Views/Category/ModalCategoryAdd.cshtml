@@ -1,0 +1,36 @@
+﻿@model EntityLayer.Concrete.Category
+
+<button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">Yeni Kategori Ekle</button>
+
+<div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            @using (Html.BeginForm("AddCategory", "Category", FormMethod.Post))
+            {
+                <div class="modal-header">
+                    <h4 class="modal-title">Kategori Kayıt Formu</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <div class="modal-body">
+                    @Html.AntiForgeryToken()
+                    <div class="form-group">
+                        @Html.Label("Kategori Adı")
+                        @Html.TextBoxFor(x => x.CategoryName, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(x => x.CategoryName, "", new { @class = "text-danger" })
+                        <br /><br />
+                        @Html.Label("Açıklamayı Yazınız")
+                        @Html.TextBoxFor(x => x.CategoryDescription, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(x => x.CategoryDescription, "", new { @class = "text-danger" })
+                        <br /><br />
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary">Kaydet</button>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Kapat</button>
+                </div>
+            }
+        </div>
+    </div>
+</div>
