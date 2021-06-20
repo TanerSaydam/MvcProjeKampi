@@ -1,5 +1,6 @@
 ﻿using BusinessLayer.Concrete;
 using BusinessLayer.ValidationRules;
+using DataAccessLayer.Concrete;
 using DataAccessLayer.EntityFramework;
 using EntityLayer.Concrete;
 using FluentValidation.Results;
@@ -16,26 +17,30 @@ namespace MvcProjeKampi.Controllers
         HeadingManager hm = new HeadingManager(new EfHeadingDal());
         CategoryManager cm = new CategoryManager(new EfCategoryDal());
         WriterManager wm = new WriterManager(new EfWriterDal());
-        HeadingValidator HeadingValidator = new HeadingValidator();
+        HeadingValidator HeadingValidator = new HeadingValidator();        
         public ActionResult WriterProfile()
         {
             return View();
         }
 
-        public ActionResult MyHeading()
+        public ActionResult MyHeading(string p)
         {
 
-            //int id = Convert.ToInt32(Session["WriterID"]);
-            int id = 4;
+            Context c = new Context();
+            p = (string)Session["WriterMail"];
+            var deger1 = c.Writers.Where(x => x.WriterMail == p).Select(a => a.WriterID).FirstOrDefault();
+            int id = deger1;
             List<Heading> deger = hm.GetListById(id).ToList();
             return View(deger);
         }
 
         [HttpGet]
-        public ActionResult AddHeading()
+        public ActionResult AddHeading(string p)
         {
-            //int id = Convert.ToInt32(Session["WriterID"]);
-            int id = 4;
+            Context c = new Context();
+            p = (string)Session["WriterMail"];
+            var deger = c.Writers.Where(x => x.WriterMail == p).Select(a => a.WriterID).FirstOrDefault();
+            int id = deger;
             ViewBag.wrt = id;
             List<SelectListItem> valuecategory = (from x in cm.GetList()
                                                   select new SelectListItem
@@ -85,10 +90,12 @@ namespace MvcProjeKampi.Controllers
         }
 
         [HttpGet]
-        public ActionResult EditHeading(int id)
+        public ActionResult EditHeading(int id, string p)
         {
-            //int kid = Convert.ToInt32(Session["WriterID"]);
-            int kid = 4;
+            Context c = new Context();
+            p = (string)Session["WriterMail"];
+            var deger = c.Writers.Where(x => x.WriterMail == p).Select(a => a.WriterID).FirstOrDefault();
+            int kid = deger;            
             ViewBag.wrt = kid;
             var headingvalues = hm.GetByID(kid);
             List<SelectListItem> valuecategory = (from x in cm.GetList()
@@ -120,7 +127,12 @@ namespace MvcProjeKampi.Controllers
             return View();
         }
 
+        public ActionResult AllHeading()
+        {
+            var deger = hm.GetList();
+            return View(deger);
+        }
 
-
+        
     }
 }

@@ -22,3 +22,5 @@ C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\Enti
 C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\EntityLayer\obj\Debug\EntityLayer.csproj.CopyComplete
 C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\EntityLayer\obj\Debug\EntityLayer.dll
 C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\EntityLayer\obj\Debug\EntityLayer.pdb
+C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\EntityLayer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\EntityLayer\bin\Debug\Newtonsoft.Json.xml
