@@ -16,6 +16,8 @@ namespace MvcProjeKampi.Controllers
     public class LoginController : Controller
     {
         AdminManager an = new AdminManager(new EfAdminDal());
+        WriterLoginManager wm = new WriterLoginManager(new EfWriterDal());
+
         [HttpGet]
         public ActionResult Index()
         {
@@ -74,7 +76,8 @@ namespace MvcProjeKampi.Controllers
             Context c = new Context();
             //var crypto = new SimpleCrypto.PBKDF2();
 
-            var deger = c.Writers.FirstOrDefault(x => x.WriterMail == p.WriterMail && x.WriterPassword == p.WriterPassword);
+            //var deger = c.Writers.FirstOrDefault(x => x.WriterMail == p.WriterMail && x.WriterPassword == p.WriterPassword);
+            var deger = wm.GetWriter(p.WriterMail, p.WriterPassword);
             if (deger != null)
             {
                 FormsAuthentication.SetAuthCookie(deger.WriterMail, false);

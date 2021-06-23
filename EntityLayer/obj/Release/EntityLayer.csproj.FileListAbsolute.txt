@@ -1,0 +1,14 @@
+C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\EntityLayer\bin\Release\EntityLayer.dll.config
+C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\EntityLayer\bin\Release\EntityLayer.dll
+C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\EntityLayer\bin\Release\EntityLayer.pdb
+C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\EntityLayer\bin\Release\EntityFramework.dll
+C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\EntityLayer\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\EntityLayer\bin\Release\Newtonsoft.Json.dll
+C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\EntityLayer\bin\Release\EntityFramework.xml
+C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\EntityLayer\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\EntityLayer\bin\Release\Newtonsoft.Json.xml
+C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\EntityLayer\obj\Release\EntityLayer.csprojAssemblyReference.cache
+C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\EntityLayer\obj\Release\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\EntityLayer\obj\Release\EntityLayer.csproj.CopyComplete
+C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\EntityLayer\obj\Release\EntityLayer.dll
+C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\EntityLayer\obj\Release\EntityLayer.pdb

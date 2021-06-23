@@ -9,6 +9,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using PagedList;
+using PagedList.Mvc;
 
 namespace MvcProjeKampi.Controllers
 {
@@ -17,9 +19,34 @@ namespace MvcProjeKampi.Controllers
         HeadingManager hm = new HeadingManager(new EfHeadingDal());
         CategoryManager cm = new CategoryManager(new EfCategoryDal());
         WriterManager wm = new WriterManager(new EfWriterDal());
-        HeadingValidator HeadingValidator = new HeadingValidator();        
+        WriterValidator writerValidator = new WriterValidator();
+        HeadingValidator HeadingValidator = new HeadingValidator();
+        Context c = new Context();
         public ActionResult WriterProfile()
         {
+            string p = (string)Session["WriterMail"];
+            var deger1 = c.Writers.Where(x => x.WriterMail == p).Select(a => a.WriterID).FirstOrDefault();
+            int id = deger1;
+            var deger = wm.GetById(id);
+            return View(deger);
+        }
+
+        [HttpPost]
+        public ActionResult EditWriter(Writer p)
+        {
+            ValidationResult results = writerValidator.Validate(p);
+            if (results.IsValid)
+            {
+                wm.WriterUpdate(p);
+                return RedirectToAction("AllHeading");
+            }
+            else
+            {
+                foreach (var item in results.Errors)
+                {
+                    ModelState.AddModelError(item.PropertyName, item.ErrorMessage);
+                }
+            }
             return View();
         }
 
@@ -127,9 +154,9 @@ namespace MvcProjeKampi.Controllers
             return View();
         }
 
-        public ActionResult AllHeading()
+        public ActionResult AllHeading(int p = 1)
         {
-            var deger = hm.GetList();
+            var deger = hm.GetList().ToPagedList(p,4);
             return View(deger);
         }
 

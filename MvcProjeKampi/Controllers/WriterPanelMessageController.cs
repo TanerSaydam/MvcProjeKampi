@@ -17,40 +17,47 @@ namespace MvcProjeKampi.Controllers
         ContactManager cm = new ContactManager(new EfContactDal());
         WriterManager vm = new WriterManager(new EfWriterDal());
         MessageValidator messageValidator = new MessageValidator();
+        Content c = new Content();
         public ActionResult Inbox() //Bu Tamam
         {
-            var deger = mm.GetListInbox();
+            string p = (string)Session["WriterMail"];            
+            var deger = mm.GetListInbox(p);
             return View(deger);
         }
 
         public ActionResult Read() //Tamam
         {
-            var deger = mm.GetReadList();
+            string p = (string)Session["WriterMail"];
+            var deger = mm.GetReadList(p);
             return View(deger);
         }
 
         public ActionResult UnRead() //Tamam
         {
-            var deger = mm.GetUnReadList();
+            string p = (string)Session["WriterMail"];
+            var deger = mm.GetUnReadList(p);
             return View(deger);
         }
 
 
         public ActionResult Sendbox() //Tamam
         {
-            var deger = mm.GetListSendbox();
+            string p = (string)Session["WriterMail"];
+            var deger = mm.GetListSendbox(p);
             return View(deger);
         }
 
         public ActionResult Draft() //Tamam
         {
-            var deger = mm.GetListDraft();
+            string p = (string)Session["WriterMail"];
+            var deger = mm.GetListDraft(p);
             return View(deger);
         }
 
         public ActionResult Trash() //Tamam
         {
-            var deger = mm.GetListTrash();
+            string p = (string)Session["WriterMail"];
+            var deger = mm.GetListTrash(p);
             return View(deger);
         }
 
@@ -59,22 +66,24 @@ namespace MvcProjeKampi.Controllers
             var contactvalues = cm.GetList();
             ViewBag.sayi = contactvalues.Count();
 
-            var deger1 = mm.GetListInbox();
+            string p = (string)Session["WriterMail"];
+
+            var deger1 = mm.GetListInbox(p);
             ViewBag.sayi1 = deger1.Count();
 
-            var deger2 = mm.GetListSendbox();
+            var deger2 = mm.GetListSendbox(p);
             ViewBag.sayi2 = deger2.Count();
 
-            var deger3 = mm.GetListDraft();
+            var deger3 = mm.GetListDraft(p);
             ViewBag.sayi3 = deger3.Count();
 
-            var deger4 = mm.GetListTrash();
+            var deger4 = mm.GetListTrash(p);
             ViewBag.sayi4 = deger4.Count();
 
-            var deger5 = mm.GetReadList();
+            var deger5 = mm.GetReadList(p);
             ViewBag.sayi5 = deger5.Count();
 
-            var deger6 = mm.GetUnReadList();
+            var deger6 = mm.GetUnReadList(p);
             ViewBag.sayi6 = deger6.Count();
             return PartialView();
 
@@ -83,9 +92,6 @@ namespace MvcProjeKampi.Controllers
         [HttpGet]
         public ActionResult NewMessage() //Tamam
         {
-            int id = 4;
-            var deger = vm.GetById(id);
-            ViewBag.mail = deger.WriterMail;
             return View();
         }
 
@@ -93,9 +99,11 @@ namespace MvcProjeKampi.Controllers
         [ValidateInput(false)]
         public ActionResult NewMessage(Message p, string MessageContent) //Tamam
         {
+            string send = (string)Session["WriterMail"];
             ValidationResult results = messageValidator.Validate(p);
             if (results.IsValid)
             {
+                p.SenderMail = send;
                 p.MessageDate = DateTime.Now;
                 //p.MessageContent = MessageContent;
                 p.MessageStatus = "Gönderilen";

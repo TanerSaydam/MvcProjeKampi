@@ -19,38 +19,44 @@ namespace MvcProjeKampi.Controllers
         MessageValidator messageValidator = new MessageValidator();
         public ActionResult Inbox()
         {
-            var deger = mm.GetListInbox();
+            string p = (string)Session["WriterMail"];
+            var deger = mm.GetListInbox(p);
             return View(deger);
         }
 
         public ActionResult Read()
         {
-            var deger = mm.GetReadList();
+            string p = (string)Session["WriterMail"];
+            var deger = mm.GetReadList(p);
             return View(deger);
         }
 
         public ActionResult UnRead()
         {
-            var deger = mm.GetUnReadList();
+            string p = (string)Session["WriterMail"];
+            var deger = mm.GetUnReadList(p);
             return View(deger);
         }
 
 
         public ActionResult Sendbox()
         {
-            var deger = mm.GetListSendbox();
+            string p = (string)Session["WriterMail"];
+            var deger = mm.GetListSendbox(p);
             return View(deger);
         }
 
         public ActionResult Draft()
         {
-            var deger = mm.GetListDraft();
+            string p = (string)Session["WriterMail"];
+            var deger = mm.GetListDraft(p);
             return View(deger);
         }
 
         public ActionResult Trash()
         {
-            var deger = mm.GetListTrash();
+            string p = (string)Session["WriterMail"];
+            var deger = mm.GetListTrash(p);
             return View(deger);
         }
 
