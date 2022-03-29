@@ -67,17 +67,17 @@ namespace MvcProjeKampi.Controllers
         [HttpPost]
         public ActionResult WriterLogin(Writer p)
         {
-            var response = Request["g-recaptcha-response"];
-            const string secret = "6LcotuYSAAAAAHmLlVOMatQlYyOqqeq08sTlGWoE";
-            var client = new WebClient();
+            //var response = Request["g-recaptcha-response"];
+            //const string secret = "6LcotuYSAAAAAHmLlVOMatQlYyOqqeq08sTlGWoE";
+            //var client = new WebClient();
 
-            var reply = client.DownloadString(string.Format("https://www.google.com/recaptcha/api/siteverify?secret={0}&response={1}", secret, response));
-            var captchaResponse = JsonConvert.DeserializeObject<CaptchaResponse>(reply);
-            if (!captchaResponse.Success)
-            {
-                TempData["Message"] = "Lütfen güvenliği doğrulayınız.";
-                return View();
-            }
+            //var reply = client.DownloadString(string.Format("https://www.google.com/recaptcha/api/siteverify?secret={0}&response={1}", secret, response));
+            //var captchaResponse = JsonConvert.DeserializeObject<CaptchaResponse>(reply);
+            //if (!captchaResponse.Success)
+            //{
+            //    TempData["Message"] = "Lütfen güvenliği doğrulayınız.";
+            //    return View();
+            //}
 
             Context c = new Context();
             //var crypto = new SimpleCrypto.PBKDF2();

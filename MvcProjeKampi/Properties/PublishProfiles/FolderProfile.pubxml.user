@@ -6528,10 +6528,10 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>06/23/2021 21:12:52</publishTime>
     </File>
     <File Include="bin/MvcProjeKampi.dll">
-      <publishTime>03/29/2022 17:58:38</publishTime>
+      <publishTime>03/29/2022 18:37:59</publishTime>
     </File>
     <File Include="bin/MvcProjeKampi.pdb">
-      <publishTime>03/29/2022 17:58:38</publishTime>
+      <publishTime>03/29/2022 18:37:59</publishTime>
     </File>
     <File Include="bin/Newtonsoft.Json.dll">
       <publishTime>06/23/2021 21:12:52</publishTime>
@@ -6921,7 +6921,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>06/23/2021 21:12:52</publishTime>
     </File>
     <File Include="Views/Login/WriterLogin.cshtml">
-      <publishTime>06/23/2021 21:12:52</publishTime>
+      <publishTime>03/29/2022 18:37:47</publishTime>
     </File>
     <File Include="Views/Message/Draft.cshtml">
       <publishTime>06/23/2021 21:12:52</publishTime>
@@ -6999,7 +6999,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>06/23/2021 21:12:52</publishTime>
     </File>
     <File Include="Views/WriterPanelContent/ContentByHeading.cshtml">
-      <publishTime>06/23/2021 21:12:52</publishTime>
+      <publishTime>03/29/2022 18:41:06</publishTime>
     </File>
     <File Include="Views/WriterPanelContent/EditContent.cshtml">
       <publishTime>06/23/2021 21:12:52</publishTime>
