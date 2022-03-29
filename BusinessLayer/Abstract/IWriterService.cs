@@ -1,4 +1,5 @@
 ﻿using EntityLayer.Concrete;
+using EntityLayer.Dtos;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,5 +15,6 @@ namespace BusinessLayer.Abstract
         Writer GetById(int id);
         void WriterDelete(Writer writer);
         void WriterUpdate(Writer writer);
+        List<WriterDto> GetListDto();
     }
 }

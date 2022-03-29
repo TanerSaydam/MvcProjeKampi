@@ -1,8 +1,12 @@
-﻿@using EntityLayer.Concrete
-@model List<Content>
+﻿@using EntityLayer.Dtos
+@model List<ContentDto>
 @{
     ViewBag.Title = "ContentByHeading";
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    DataAccessLayer.Concrete.Context c = new DataAccessLayer.Concrete.Context();
+    var writers = c.Writers.ToList();
+    var headings = c.Headings.ToList();
+    
 }
 
 <!DOCTYPE html>
@@ -30,7 +34,7 @@
                                 <div>
                                     <i class="fas fa-comment bg-yellow"></i>
                                     <div class="timeline-item">
-                                        <h3 class="timeline-header"><a href="#">@item.Heading.HeadingName</a> @item.Writer.WriterName @item.Writer.WriterSurName </h3>
+                                        <h3 class="timeline-header"><a href="#">@headings.Where(h=> h.HeadingID == item.HeadingID).Select(s=> s.HeadingName).FirstOrDefault()</a> @writers.Where(w => w.WriterID == item.WriterID).Select(s => s.WriterName).FirstOrDefault() @writers.Where(w => w.WriterID == item.WriterID).Select(s => s.WriterSurName).FirstOrDefault() </h3>
                                         <div class="timeline-body">
                                             @item.ContentValue
                                         </div>

@@ -1,4 +1,5 @@
 ﻿using BusinessLayer.Concrete;
+using DataAccessLayer.Concrete;
 using DataAccessLayer.EntityFramework;
 using System;
 using System.Collections.Generic;
@@ -12,15 +13,26 @@ namespace MvcProjeKampi.Controllers
     public class ContentController : Controller
     {
         // GET: Content
-        ContentManager cn = new ContentManager(new EfContentDal());
+        ContentManager cm = new ContentManager(new EfContentDal());
         public ActionResult Index()
         {
             return View();
         }
+        
+        public ActionResult GetAllContent(string p)
+        {
+            var values = cm.GetAllDto();
+            if (p != null)
+            {
+                values = values.Where(u=> u.ContentValue.Contains(p)).ToList();
+            }
+            
+            return View(values);
+        }
 
         public ActionResult ContentByHeading(int id)
         {
-            var contentvalues = cn.GetListByHeadingID(id);
+            var contentvalues = cm.GetListByHeadingID(id);
             return View(contentvalues);
         }
     }

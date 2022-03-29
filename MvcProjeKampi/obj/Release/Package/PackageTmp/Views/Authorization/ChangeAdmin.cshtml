@@ -1,0 +1,26 @@
+﻿@model EntityLayer.Concrete.Admin
+
+@{
+    ViewBag.Title = "AddAdmin";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Yeni Admin Ekleme Sayfası</h1>
+<br />
+<form action="/Authorization/ChangeAdmin" method="post">
+    <div class="form-group">
+        <input name="AdminID" value="@Model.AdminID" hidden="hidden" />
+        <input name="Status" value="@Model.Status.ToString()" hidden="hidden" />        
+        <label class="control-label">Admin Adı</label>
+        <input name="AdminUserName" type="text" autocomplete="off" class="form-control" value="@Model.AdminUserName" />
+    </div>
+    <div class="form-group">
+        <label class="control-label">Şifre</label>
+        <input name="AdminPassword" type="text" autocomplete="off" class="form-control" value="@Model.AdminPassword" />
+    </div>
+    <div class="form-group">
+        <label class="control-label">Rol</label>
+        <input name="AdminRole" type="text" autocomplete="off" class="form-control" value="@Model.AdminRole" />
+    </div>
+    <button class="btn btn-warning" type="submit">Güncelle</button>
+</form>

@@ -1,5 +1,6 @@
 ﻿using DataAccessLayer.Abstract;
 using EntityLayer.Concrete;
+using EntityLayer.Dtos;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -21,6 +22,11 @@ namespace DataAccessLayer.Concrete.Repositories
         }
 
         public Category Get(Expression<Func<Category, bool>> filter)
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<CategoryDto> GetCategoryListDto()
         {
             throw new NotImplementedException();
         }

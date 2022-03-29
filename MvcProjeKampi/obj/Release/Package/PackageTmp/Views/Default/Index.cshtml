@@ -1,6 +1,7 @@
-﻿@using EntityLayer.Concrete
-@model List<Content>
+﻿@using EntityLayer.Dtos
+@model List<ContentDto>
 
+<br />
 <!DOCTYPE html>
 <html>
 <body class="hold-transition sidebar-mini">
@@ -19,14 +20,14 @@
                             {
                                 <!-- timeline time label -->
                                 <div class="time-label">
-                                    <span class="bg-success">@item.ContentDate.ToShortDateString() -- @item.Writer.WriterName @item.Writer.WriterSurName</span>
+                                    <span class="bg-success">@item.ContentDate.ToShortDateString() -- @item.WriterName @item.WriterSurName</span>
                                 </div>
                                 <!-- /.timeline-label -->
                                 <!-- timeline item -->
                                 <div>
                                     <a href="/WriterPanelContent/EditContent/@item.ContentID" class="btn btn-light"><i class="fas fa-comment bg-yellow"></i></a>
                                     <div class="timeline-item">
-                                        <h3 class="timeline-header"><a href="#">@item.Heading.HeadingName</a> </h3>
+                                        <h3 class="timeline-header"><a href="#">@item.HeadingName</a> </h3>
                                         <div class="timeline-body">
                                             @item.ContentValue
                                         </div>

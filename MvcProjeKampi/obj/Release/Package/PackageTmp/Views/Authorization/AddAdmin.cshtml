@@ -1,0 +1,27 @@
+﻿@{
+    ViewBag.Title = "AddAdmin";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Yeni Admin Ekleme Sayfası</h1>
+<br />
+<form action="/Authorization/AddAdmin" method="post">
+    <div class="form-group">
+        <input name="Status" value="True" hidden="hidden" />
+        <label class="control-label">Admin Adı</label>
+        <input name="AdminUserName" type="text" autocomplete="off" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label class="control-label">Şifre</label>
+        <input name="AdminPassword" type="text" autocomplete="off" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label class="control-label">Rol</label>
+        <select class="form-control" name="AdminRole">
+            <option id="A">A</option>
+            <option id="B">B</option>
+            <option id="C">C</option>
+        </select>        
+    </div>
+    <button class="btn btn-primary" type="submit">Kaydet</button>
+</form>

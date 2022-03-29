@@ -5,6 +5,7 @@ using EntityLayer.Concrete;
 using FluentValidation.Results;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -30,8 +31,16 @@ namespace MvcProjeKampi.Controllers
         }
 
         [HttpPost]
-        public ActionResult AddWriter(Writer p)
-        {           
+        public ActionResult AddWriter(Writer p, HttpPostedFileBase file)
+        {
+            if (file != null)
+            {
+                var dosya_formati_adi = Path.GetFileName(file.FileName);
+                string dosya_adi = Guid.NewGuid().ToString() + dosya_formati_adi;
+                p.WriterImage = dosya_adi;
+                file.SaveAs(Server.MapPath("/AdminLTE-3.0.4/dist/img/" + dosya_adi));
+            }
+
             ValidationResult results = writerValidator.Validate(p);
             if (results.IsValid)
             {
@@ -63,8 +72,16 @@ namespace MvcProjeKampi.Controllers
         }
 
         [HttpPost]
-        public ActionResult EditWriter(Writer p)
+        public ActionResult EditWriter(Writer p, HttpPostedFileBase file)
         {
+            if (file != null)
+            {
+                var dosya_formati_adi = Path.GetFileName(file.FileName);
+                string dosya_adi = Guid.NewGuid().ToString() + dosya_formati_adi;
+                p.WriterImage = dosya_adi;
+                file.SaveAs(Server.MapPath("/AdminLTE-3.0.4/dist/img/" + dosya_adi));
+            }
+
             ValidationResult results = writerValidator.Validate(p);
             if (results.IsValid)
             {

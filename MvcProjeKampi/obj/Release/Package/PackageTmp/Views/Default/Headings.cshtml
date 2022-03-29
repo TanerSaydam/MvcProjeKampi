@@ -4,6 +4,7 @@
     Layout = null;
 }
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -52,23 +53,30 @@ to get the desired effect
                     <div class="info">
                         <a href="#" class="d-block">Taner Saydam</a>
                     </div>
-                </div>
+                </div>               
                 <!-- Sidebar Menu -->
                 <nav class="mt-2">
                     <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
-                        @foreach (var x in Model)
-                        {
                         <li class="nav-item">
-                            <a href="/Default/Headings/@x.HeadingID" class="nav-link">
+                            <a href="/Login/WriterLogin" class="nav-link">
                                 <p>
-                                    @x.HeadingName
+                                    Giriş Yap
                                 </p>
                             </a>
                         </li>
+                        @foreach (var x in Model)
+                        {
+                            <li class="nav-item">
+                                <a href="/Default/Headings/@x.HeadingID" class="nav-link">
+                                    <p>
+                                        @x.HeadingName
+                                    </p>
+                                </a>
+                            </li>
 
                         }
                     </ul>
-                </nav>               
+                </nav>
             </div>            
         </aside>        
         <div class="content-wrapper">

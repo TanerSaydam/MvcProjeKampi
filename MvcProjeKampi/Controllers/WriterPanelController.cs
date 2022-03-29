@@ -11,6 +11,7 @@ using System.Web;
 using System.Web.Mvc;
 using PagedList;
 using PagedList.Mvc;
+using System.IO;
 
 namespace MvcProjeKampi.Controllers
 {
@@ -32,8 +33,16 @@ namespace MvcProjeKampi.Controllers
         }
 
         [HttpPost]
-        public ActionResult EditWriter(Writer p)
+        public ActionResult EditWriter(Writer p, HttpPostedFileBase file)
         {
+            if (file != null)
+            {
+                var dosya_formati_adi = Path.GetFileName(file.FileName);
+                string dosya_adi = Guid.NewGuid().ToString() + dosya_formati_adi;
+                p.WriterImage = dosya_adi;                
+                file.SaveAs(Server.MapPath("/AdminLTE-3.0.4/dist/img/" + dosya_adi));                
+            }
+
             ValidationResult results = writerValidator.Validate(p);
             if (results.IsValid)
             {

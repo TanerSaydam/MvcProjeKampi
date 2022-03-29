@@ -26,19 +26,25 @@ namespace MvcProjeKampi.Controllers
 
         [HttpPost]
         public ActionResult Index(string username, string password, Admin p)
-        {            
-            var crypto = new SimpleCrypto.PBKDF2();
+        {
+            //var crypto = new SimpleCrypto.PBKDF2();
 
-            var deger = an.GetList().Where(x => x.AdminUserName == username).FirstOrDefault();
+            var degerList = an.GetList();
+            var deger = degerList.Where(x => x.AdminUserName == username && x.AdminPassword == password).FirstOrDefault();
+
 
             if (deger != null)
             {
-                if (deger.AdminPassword == crypto.Compute(password,deger.Salt))
-                {
-                    FormsAuthentication.SetAuthCookie(deger.AdminUserName, false);
-                    Session["AdminUserName"] = deger.AdminUserName;
-                    return RedirectToAction("Index", "AdminCategory");
-                }                
+                FormsAuthentication.SetAuthCookie(deger.AdminUserName, false);
+                Session["AdminUserName"] = deger.AdminUserName;
+                return RedirectToAction("Index", "AdminCategory");
+                
+                //if (deger.AdminPassword == crypto.Compute(password,deger.Salt))
+                //{
+                //    FormsAuthentication.SetAuthCookie(deger.AdminUserName, false);
+                //    Session["AdminUserName"] = deger.AdminUserName;
+                //    return RedirectToAction("Index", "AdminCategory");
+                //}                
             }
 
             ViewBag.Hata = "Kullanıcı adı ya da şifre yanlış";

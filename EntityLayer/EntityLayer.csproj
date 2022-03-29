@@ -64,6 +64,10 @@
     <Compile Include="Concrete\Message.cs" />
     <Compile Include="Concrete\Talent.cs" />
     <Compile Include="Concrete\Writer.cs" />
+    <Compile Include="Dtos\Calender.cs" />
+    <Compile Include="Dtos\ContentDto.cs" />
+    <Compile Include="Dtos\CategoryDto.cs" />
+    <Compile Include="Dtos\WriterDto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

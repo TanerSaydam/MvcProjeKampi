@@ -9,7 +9,6 @@ namespace EntityLayer.Concrete
 {
     public class Talent
     {
-        [Key]
         public int TalentID { get; set; }
         public string Name { get; set; }
         public string About { get; set; }

@@ -75,11 +75,6 @@
     <Compile Include="EntityFramework\EfMessageDal.cs" />
     <Compile Include="EntityFramework\EfTalentDal.cs" />
     <Compile Include="EntityFramework\EfWriterDal.cs" />
-    <Compile Include="Migrations\202105151913248_mig_writer_edit.cs" />
-    <Compile Include="Migrations\202105151913248_mig_writer_edit.designer.cs">
-      <DependentUpon>202105151913248_mig_writer_edit.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -91,11 +86,6 @@
       <Project>{53976372-FADD-477A-8199-946C56E44ADF}</Project>
       <Name>EntityLayer</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\202105151913248_mig_writer_edit.resx">
-      <DependentUpon>202105151913248_mig_writer_edit.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

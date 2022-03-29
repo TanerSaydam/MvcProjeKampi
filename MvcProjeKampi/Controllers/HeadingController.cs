@@ -20,7 +20,19 @@ namespace MvcProjeKampi.Controllers
         WriterManager wm = new WriterManager(new EfWriterDal());
         HeadingValidator HeadingValidator = new HeadingValidator();
         
-        public ActionResult Index()
+        public ActionResult Index(int? id)
+        {
+            var headingvalues = hm.GetList();
+            if (id != null)
+            {
+                headingvalues = headingvalues.Where(w => w.WriterID == id).ToList();
+            }
+            
+            return View(headingvalues);
+        }
+      
+
+        public ActionResult HeadingReport()
         {
             var headingvalues = hm.GetList();
             return View(headingvalues);

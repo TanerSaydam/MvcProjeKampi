@@ -12,3 +12,17 @@ C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\Enti
 C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\EntityLayer\obj\Release\EntityLayer.csproj.CopyComplete
 C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\EntityLayer\obj\Release\EntityLayer.dll
 C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\EntityLayer\obj\Release\EntityLayer.pdb
+C:\Users\taner\OneDrive\Masaüstü\GitHub\MvcProjeKampi\EntityLayer\bin\Release\EntityLayer.dll.config
+C:\Users\taner\OneDrive\Masaüstü\GitHub\MvcProjeKampi\EntityLayer\bin\Release\EntityLayer.dll
+C:\Users\taner\OneDrive\Masaüstü\GitHub\MvcProjeKampi\EntityLayer\bin\Release\EntityLayer.pdb
+C:\Users\taner\OneDrive\Masaüstü\GitHub\MvcProjeKampi\EntityLayer\bin\Release\EntityFramework.dll
+C:\Users\taner\OneDrive\Masaüstü\GitHub\MvcProjeKampi\EntityLayer\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\taner\OneDrive\Masaüstü\GitHub\MvcProjeKampi\EntityLayer\bin\Release\Newtonsoft.Json.dll
+C:\Users\taner\OneDrive\Masaüstü\GitHub\MvcProjeKampi\EntityLayer\bin\Release\EntityFramework.xml
+C:\Users\taner\OneDrive\Masaüstü\GitHub\MvcProjeKampi\EntityLayer\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\taner\OneDrive\Masaüstü\GitHub\MvcProjeKampi\EntityLayer\bin\Release\Newtonsoft.Json.xml
+C:\Users\taner\OneDrive\Masaüstü\GitHub\MvcProjeKampi\EntityLayer\obj\Release\EntityLayer.csproj.AssemblyReference.cache
+C:\Users\taner\OneDrive\Masaüstü\GitHub\MvcProjeKampi\EntityLayer\obj\Release\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\taner\OneDrive\Masaüstü\GitHub\MvcProjeKampi\EntityLayer\obj\Release\EntityLayer.csproj.CopyComplete
+C:\Users\taner\OneDrive\Masaüstü\GitHub\MvcProjeKampi\EntityLayer\obj\Release\EntityLayer.dll
+C:\Users\taner\OneDrive\Masaüstü\GitHub\MvcProjeKampi\EntityLayer\obj\Release\EntityLayer.pdb

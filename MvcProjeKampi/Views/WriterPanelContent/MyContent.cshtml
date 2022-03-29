@@ -1,5 +1,5 @@
-﻿@using EntityLayer.Concrete
-@model List<Content>
+﻿@using EntityLayer.Dtos
+@model List<ContentDto>
 
 @{
     ViewBag.Title = "ContentByHeading";
@@ -31,7 +31,7 @@
                                 <div>
                                     <a href="/WriterPanelContent/EditContent/@item.ContentID" class="btn btn-light"><i class="fas fa-comment bg-yellow"></i></a>
                                     <div class="timeline-item">
-                                        <h3 class="timeline-header"><a href="#">@item.Heading.HeadingName</a> </h3>
+                                        <h3 class="timeline-header"><a href="#">@item.HeadingName</a> </h3>
                                         <div class="timeline-body">
                                             @item.ContentValue
                                         </div>

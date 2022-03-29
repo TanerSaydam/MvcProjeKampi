@@ -49,8 +49,7 @@
                                 <h3 class="card-title">Yeni Mesaj Sayfası</h3>
                             </div>
                             <!-- /.card-header -->
-                            <div class="card-body">
-                                @Html.HiddenFor(x => x.SenderMail, new { @Value = ViewBag.mail })
+                            <div class="card-body">                                
                                 <div class="form-group">
                                     @Html.TextBoxFor(x => x.ReceiverMail, new { @class = "form-control" })
                                     @Html.ValidationMessageFor(x => x.ReceiverMail, "", new { @class = "text-danger" })

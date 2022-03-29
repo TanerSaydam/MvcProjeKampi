@@ -1,4 +1,5 @@
 ﻿using EntityLayer.Concrete;
+using EntityLayer.Dtos;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,5 +15,6 @@ namespace BusinessLayer.Abstract
         Category GetByID(int id);
         void CategoryDelete(Category category);
         void CategoryUpdate(Category category);
+        List<CategoryDto> GetCategoryListDto();
     }
 }

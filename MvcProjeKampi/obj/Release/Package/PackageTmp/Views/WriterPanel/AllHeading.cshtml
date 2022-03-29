@@ -1,8 +1,15 @@
 ﻿@using EntityLayer.Concrete
-@model List<Heading>
+@using PagedList
+@using PagedList.Mvc
+ 
+@model PagedList.IPagedList<Heading>
 @{
     ViewBag.Title = "AllHeading";
     Layout = "~/Views/Shared/_WriterLayout.cshtml";
+
+    DataAccessLayer.Concrete.Context c = new DataAccessLayer.Concrete.Context();
+    var writters = c.Writers.ToList();
+    var categories = c.Categories.ToList();
 }
 
 <section class="content-header">
@@ -77,12 +84,12 @@
                             <td>
                                 <ul class="list-inline">
                                     <li class="list-inline-item">
-                                        <img alt="Avatar" class="table-avatar" src="@item.Writer.WriterImage">
+                                        <img alt="Avatar" class="table-avatar" src="@writters.Where(w=> w.WriterID == item.WriterID).Select(s=> s.WriterImage).FirstOrDefault()">
                                     </li>
                                 </ul>
                             </td>
                             <td class="project-state">
-                                <span class="badge badge-success">@item.Category.CategoryName</span>
+                                <span class="badge badge-success">@categories.Where(d => d.CategoryID == item.CategoryID).Select(s => s.CategoryName).FirstOrDefault()</span>
                             </td>
                             <td class="project-actions text-right">
                                 <a class="btn btn-primary btn-sm" href="\Default\Headings\@item.HeadingID">
@@ -104,6 +111,9 @@
     </div>
 </section>
 
-
+@Html.PagedListPager((IPagedList)Model,p=> Url.Action("AllHeading", new { p }), new PagedListRenderOptions {
+    LiElementClasses=new List<string>
+    { "page-link"}
+})
 
 

@@ -1,6 +1,7 @@
 ﻿using BusinessLayer.Abstract;
 using DataAccessLayer.Abstract;
 using EntityLayer.Concrete;
+using EntityLayer.Dtos;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -32,6 +33,11 @@ namespace BusinessLayer.Concrete
             _contentDal.Update(content);
         }
 
+        public List<ContentDto> GetAllDto()
+        {
+            return _contentDal.GetAllDto();
+        }
+
         public Content GetByID(int id)
         {
             return _contentDal.Get(x => x.ContentID == id);
@@ -42,14 +48,14 @@ namespace BusinessLayer.Concrete
             return _contentDal.List();
         }
 
-        public List<Content> GetListByHeadingID(int id)
+        public List<ContentDto> GetListByHeadingID(int id)
         {
-            return _contentDal.List(x => x.HeadingID == id);
+            return _contentDal.GetAllDto().Where(x => x.HeadingID == id).ToList();
         }
 
-        public List<Content> GetListByWriter(int id)
+        public List<ContentDto> GetListByWriter(int id)
         {
-            return _contentDal.List(x => x.WriterID == id);
+            return _contentDal.GetAllDto().Where(x => x.WriterID == id).ToList();
         }
     }
 }

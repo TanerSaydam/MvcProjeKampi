@@ -18,3 +18,23 @@ C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\Busi
 C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\BusinessLayer\obj\Release\BusinessLayer.csproj.CopyComplete
 C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\BusinessLayer\obj\Release\BusinessLayer.dll
 C:\Users\Taner\Desktop\Programlar\Eğitim Aldığım Projeler\MvcProjeKampi\BusinessLayer\obj\Release\BusinessLayer.pdb
+C:\Users\taner\OneDrive\Masaüstü\GitHub\MvcProjeKampi\BusinessLayer\bin\Release\BusinessLayer.dll.config
+C:\Users\taner\OneDrive\Masaüstü\GitHub\MvcProjeKampi\BusinessLayer\bin\Release\BusinessLayer.dll
+C:\Users\taner\OneDrive\Masaüstü\GitHub\MvcProjeKampi\BusinessLayer\bin\Release\BusinessLayer.pdb
+C:\Users\taner\OneDrive\Masaüstü\GitHub\MvcProjeKampi\BusinessLayer\bin\Release\DataAccessLayer.dll
+C:\Users\taner\OneDrive\Masaüstü\GitHub\MvcProjeKampi\BusinessLayer\bin\Release\EntityFramework.dll
+C:\Users\taner\OneDrive\Masaüstü\GitHub\MvcProjeKampi\BusinessLayer\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\taner\OneDrive\Masaüstü\GitHub\MvcProjeKampi\BusinessLayer\bin\Release\EntityLayer.dll
+C:\Users\taner\OneDrive\Masaüstü\GitHub\MvcProjeKampi\BusinessLayer\bin\Release\FluentValidation.dll
+C:\Users\taner\OneDrive\Masaüstü\GitHub\MvcProjeKampi\BusinessLayer\bin\Release\DataAccessLayer.pdb
+C:\Users\taner\OneDrive\Masaüstü\GitHub\MvcProjeKampi\BusinessLayer\bin\Release\DataAccessLayer.dll.config
+C:\Users\taner\OneDrive\Masaüstü\GitHub\MvcProjeKampi\BusinessLayer\bin\Release\EntityLayer.pdb
+C:\Users\taner\OneDrive\Masaüstü\GitHub\MvcProjeKampi\BusinessLayer\bin\Release\EntityLayer.dll.config
+C:\Users\taner\OneDrive\Masaüstü\GitHub\MvcProjeKampi\BusinessLayer\bin\Release\EntityFramework.xml
+C:\Users\taner\OneDrive\Masaüstü\GitHub\MvcProjeKampi\BusinessLayer\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\taner\OneDrive\Masaüstü\GitHub\MvcProjeKampi\BusinessLayer\bin\Release\FluentValidation.xml
+C:\Users\taner\OneDrive\Masaüstü\GitHub\MvcProjeKampi\BusinessLayer\obj\Release\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\taner\OneDrive\Masaüstü\GitHub\MvcProjeKampi\BusinessLayer\obj\Release\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\taner\OneDrive\Masaüstü\GitHub\MvcProjeKampi\BusinessLayer\obj\Release\BusinessLayer.csproj.CopyComplete
+C:\Users\taner\OneDrive\Masaüstü\GitHub\MvcProjeKampi\BusinessLayer\obj\Release\BusinessLayer.dll
+C:\Users\taner\OneDrive\Masaüstü\GitHub\MvcProjeKampi\BusinessLayer\obj\Release\BusinessLayer.pdb

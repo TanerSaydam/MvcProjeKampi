@@ -1,4 +1,5 @@
 ﻿using EntityLayer.Concrete;
+using EntityLayer.Dtos;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,8 +11,9 @@ namespace BusinessLayer.Abstract
     public interface IContentService
     {
         List<Content> GetList();
-        List<Content> GetListByWriter(int id);
-        List<Content> GetListByHeadingID(int id);
+        List<ContentDto> GetAllDto();
+        List<ContentDto> GetListByWriter(int id);
+        List<ContentDto> GetListByHeadingID(int id);
         void ContentAdd(Content content);
         Content GetByID(int id);
         void ContentDelete(Content content);
